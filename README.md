@@ -1,4 +1,4 @@
-# 🏦 Bank Management System
+# 🏦 Vaultx - A Mini Banking System
 
 A simple yet powerful **Bank Management System** built using **C++ (OOP)** and **MySQL**, with a modern frontend UI using **HTML, CSS, and JavaScript**.
 
@@ -42,7 +42,7 @@ Bank-Management-System/
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the frontend on Netlify](banking-cpp-mysql.netlify.app)
+🔗 [Click here to view the frontend on Netlify](https://vaultx-cpp-mysql.netlify.app/)
 
 ---
 
