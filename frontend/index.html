@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bank Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏦 Welcome to Sakshi Bank</h1>
+
+    <div class="form">
+      <h2>Open Account</h2>
+      <input type="text" placeholder="Full Name" id="name" />
+      <input type="number" placeholder="Initial Deposit" id="deposit" />
+      <button onclick="openAccount()">Submit</button>
+    </div>
+
+    <div class="form">
+      <h2>Check Balance</h2>
+      <input type="text" placeholder="Account Number" id="balanceAcc" />
+      <button onclick="checkBalance()">Check</button>
+      <p id="balanceResult"></p>
+    </div>
+
+    <div class="form">
+      <h2>All Customers</h2>
+      <button onclick="listCustomers()">View All</button>
+      <ul id="customerList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
