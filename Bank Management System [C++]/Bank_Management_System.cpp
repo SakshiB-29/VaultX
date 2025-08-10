@@ -1,4 +1,4 @@
-//Banking Record System , C++ Project by Abhisht. 
+//Banking Record System. 
 #include <iostream>
 
 #include <fstream>
